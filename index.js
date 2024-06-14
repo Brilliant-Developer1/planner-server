@@ -21,7 +21,7 @@ admin.initializeApp({
 });
 
 app.use(cors({
-  origin: ["http://localhost:3000"], // Add your allowed origins
+  origin: ["http://localhost:3000","https://planner-052.netlify.app/"], // Add your allowed origins
   methods: ["POST", "GET", "PATCH", "DELETE"],
   credentials: true,
 }));
